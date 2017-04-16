@@ -1,1 +1,1 @@
-This repo is to keep track of my answers to Ruby Basics course on Launchschool.com.
+This repo is to keep track of my answers to the Ruby Basics course on Launchschool.com. 
