@@ -1,0 +1,53 @@
+=begin
+The following code increments number_a and number_b by either 0 or 1. loop is used so that the variables can be incremented more than once, however, break stops the loop after the first iteration. Use next to modify the code so that the loop iterates until either number_a or number_b equals 5. Print "5 was reached!" before breaking out of the loop.
+
+number_a = 0
+number_b = 0
+
+loop do
+  number_a += rand(2)
+  number_b += rand(2)
+
+  break
+end
+=end
+
+
+number_a = 0
+number_b = 0
+
+loop do
+  number_a += rand(2)
+  number_b += rand(2)
+  next if number_a < 5 && number_b < 5
+  puts "5 was reached!"
+  break
+end
+
+puts "A is #{number_a}."
+puts "B is #{number_b}."
+puts "A won!" if number_a > number_b
+puts "B won!" if number_b > number_a
+puts "It's a tie to 5!" if number_a == number_b
+puts
+print "Let's race again using different code. Press ENTER to continue."
+gets
+puts
+
+number_a = 0
+number_b = 0
+#Further exploration asked for an if/else instead of next.. but I only needed if.
+loop do
+  number_a += rand(2)
+  number_b += rand(2)
+  if number_a == 5 || number_b == 5
+    puts "5 was reached!"
+    break
+  end
+end
+
+puts "A is #{number_a}."
+puts "B is #{number_b}."
+puts "A won!" if number_a > number_b
+puts "B won!" if number_b > number_a
+puts "It's a tie to 5!" if number_a == number_b
