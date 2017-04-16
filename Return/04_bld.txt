@@ -1,0 +1,15 @@
+What will the following code print? Why?
+Don't run it until you've attempted to answer.
+
+def meal
+  puts 'Dinner'
+  return 'Breakfast'
+end
+
+puts meal
+
+ANSWER:
+Dinner
+Breakfast
+
+Dinner is printed within the method on line 5. The string Breakfast is returned to line 9 where it is printed by the puts.

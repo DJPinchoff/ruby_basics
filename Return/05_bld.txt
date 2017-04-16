@@ -1,0 +1,15 @@
+What will the following code print? Why? 
+Don't run it until you've attempted to answer.
+
+def meal
+  'Dinner'
+  puts 'Dinner'
+end
+
+p meal
+
+ANSWER
+Dinner
+nil
+
+Dinner is puts-ed on line 6. Which then returns a nil value which is printed by p on line 9.

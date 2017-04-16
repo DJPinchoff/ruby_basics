@@ -1,0 +1,14 @@
+What will the following code print? Why? 
+Don't run it until you've attempted to answer.
+
+def meal
+  return 'Breakfast'
+  'Dinner'
+end
+
+puts meal
+
+ANSWER:
+Breakfast
+
+The method meal returns 'Breakfast' on line 5 which is puts on line 9.  Therefore, line 6 with the string 'Dinner' is never executed.

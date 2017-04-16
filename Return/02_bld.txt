@@ -1,0 +1,14 @@
+What will the following code print? Why?
+Don't run it until you've attempted to answer.
+
+def meal
+  'Evening'
+end
+
+puts meal
+
+ANSWER
+
+Evening.
+
+Evening is returned from the meal method and that's what is being printed by puts on line 8.

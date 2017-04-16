@@ -1,0 +1,16 @@
+What will the following code print? Why? 
+Don't run it until you've attempted to answer.
+
+def tricky_number
+  if true
+    number = 1
+  else
+    2
+  end
+end
+
+puts tricky_number
+
+ANSWER
+1
+1 is the returned value when line 6 is evaluated because of the if true, which will always enter into that block of code.
